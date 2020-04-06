@@ -1,0 +1,13 @@
+# generate temperature files with only the Package temperatures
+find raw/ -name "*.temp" | while read FN; do grep ^Pack $FN  | sed 's/^Package id 0: *+//; s/°C .*$//' > pack-temps/$( printf "%s" "$FN" | sed "s|raw/||; s/\.temp$//; s|/|_|g" ); done
+
+# insert filename as first line for gnuplot
+cd pack-temps/
+ls1 | while read FN; do title="$(printf '%s' $FN | sed "s/_/./g")";  sed -i "1 i\\$title" $FN ; done
+
+
+# plot data with wildcards
+gnuplot -p -e 'set key autotitle columnhead; filelist=system("ls *gnome-shell-classic_verifyxattr-data.warmup+main"); plot for [filename in filelist] filename with lines'
+
+# plot as svg with white background
+gnuplot -p -e 'set key autotitle columnhead; filelist=system("ls *gnome-shell-classic_verifyxattr-data.warmup+main"); set terminal svg enhanced background rgb "white"; plot for [filename in filelist] filename with lines'
