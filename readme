@@ -1,8 +1,8 @@
 # generate temperature files with only the Package temperatures
-find raw/ -name "*.temp" | while read FN; do grep ^Pack $FN  | sed 's/^Package id 0: *+//; s/°C .*$//' > pack-temps/$( printf "%s" "$FN" | sed "s|raw/||; s/\.temp$//; s|/|_|g" ); done
+find raw/ -name "*.temp" | while read FN; do grep ^Pack $FN  | sed 's/^Package id 0: *+//; s/°C .*$//' > package-temperatures/$( printf "%s" "$FN" | sed "s|raw/||; s/\.temp$//; s|/|_|g" ); done
 
 # insert filename as first line for gnuplot
-cd pack-temps/
+cd package-temperatures/
 ls1 | while read FN; do title="$(printf '%s' $FN | sed "s/_/./g")";  sed -i "1 i\\$title" $FN ; done
 
 
