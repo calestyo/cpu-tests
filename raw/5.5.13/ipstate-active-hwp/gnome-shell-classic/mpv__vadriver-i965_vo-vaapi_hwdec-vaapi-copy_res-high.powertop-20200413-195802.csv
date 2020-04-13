@@ -1,0 +1,451 @@
+____________________________________________________________________
+			P o w e r T O P
+
+____________________________________________________________________
+ *  *  *   System Information   *  *  *
+
+PowerTOP Version;v2.11-1-g7ef7f79 ran at Mon Apr 13 19:58:02 2020
+
+Kernel Version;Linux version 5.5.0-1-amd64
+System Name;FUJITSUFJNB2A510601115935
+CPU Information;4 Intel(R) Core(TM) i7-7600U CPU @ 2.80GHz
+OS Information;Debian GNU/Linux bullseye/sid
+
+Target: 1 units/s;System:  879.3 wakeup/s;CPU:  90.8% usage;GPU: 0 ops/s;GFX: 91.5 wakeups/s;VFS: 0 ops/s;
+
+____________________________________________________________________
+ *  *  *   Top 10 Power Consumers   *  *  *
+
+Usage;Events/s;Category;Description;PW Estimate
+  1,4%;291,2;Timer;tick_sched_timer;  1.15 W  
+ 46,0%; 18,9;kWork;intel_atomic_commit_work;  534 mW  
+  9,7%;106,0;Process;[PID 1453135] mpv --fullscreen=yes --ao=null --length=80 --vo=vaapi --hwdec=vaapi-copy /home/calestyo/cpu-tests/test-vid-high-r;  511 mW  
+  7,1%; 79,1;Process;[PID 2827] /usr/bin/gnome-shell ;  379 mW  
+ 12,1%; 66,4;Process;[PID 1453126] mpv --fullscreen=yes --ao=null --length=80 --vo=vaapi --hwdec=vaapi-copy /home/calestyo/cpu-tests/test-vid-high-r;  379 mW  
+  0,6%; 50,0;Interrupt;[0] HI_SOFTIRQ;  201 mW  
+  1,2%; 46,1;kWork;engine_retire;  191 mW  
+  0,2%; 39,3;Timer;i915_sample;  155 mW  
+  0,1%; 31,8;Process;[PID 10] [rcu_sched];  125 mW  
+  0,4%; 24,7;Timer;hrtimer_wakeup;  101 mW  
+
+____________________________________________________________________
+ *  *  *   Processor Idle State Report   *  *  *
+
+Package;0
+C2 (pc2);  0,0%
+C3 (pc3);  0,0%
+C6 (pc6);  0,0%
+C7 (pc7);  0,0%
+C8 (pc8);  0,0%
+C9 (pc9);  0,0%
+C10 (pc10);  0,0%
+;
+;
+;
+
+;Core 0
+C3 (cc3);  2,2%
+C6 (cc6); 20,6%
+C7 (cc7); 17,9%
+;Core 1
+C3 (cc3);  0,8%
+C6 (cc6);  9,5%
+C7 (cc7); 36,4%
+;GPU 1668248163
+Powered On;100,0%
+RC6;  0,0%
+RC6p;  0,0%
+RC6pp;  0,0%
+
+CPU;0;CPU;2
+C0 active;  6,1%;  5,7%;
+POLL;  0,0%;   0,1 ms;  0,0%;   0,0 ms
+C1;  0,3%;   0,1 ms;  0,3%;   0,1 ms
+;
+C3;  2,7%;   0,3 ms;  0,9%;   0,4 ms
+C6; 29,6%;   0,7 ms; 10,9%;   0,7 ms
+C7s;  3,4%;   1,4 ms;  4,6%;   2,0 ms
+C8; 22,3%;   1,0 ms; 42,3%;   1,6 ms
+C9;  0,0%;   0,0 ms;  0,8%;   2,7 ms
+;
+C10;  0,0%;   0,0 ms;  4,7%;   1,7 ms
+C1E;  4,1%;   0,4 ms;  1,3%;   0,4 ms
+CPU;1;CPU;3
+C0 active;  5,7%;  5,6%;
+POLL;  0,0%;   0,1 ms;  0,0%;   0,0 ms
+C1;  0,1%;   0,1 ms;  0,2%;   0,2 ms
+;
+C3;  0,9%;   0,3 ms;  0,6%;   0,3 ms
+C6; 10,6%;   0,7 ms;  9,4%;   0,7 ms
+C7s;  3,0%;   2,1 ms;  2,3%;   2,0 ms
+C8; 43,8%;   1,6 ms; 43,9%;   1,7 ms
+C9;  0,4%;   2,2 ms;  0,8%;   2,7 ms
+;
+C10;  5,3%;   1,8 ms;  8,2%;   2,0 ms
+C1E;  1,2%;   0,4 ms;  0,8%;   0,3 ms
+;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+
+____________________________________________________________________
+ *  *  *   Processor Frequency Report   *  *  *
+
+Package;0
+Idle;
+;
+;
+;
+
+;Core 0
+Idle;
+;Core 1
+Idle;
+;
+;
+;
+
+CPU 0;CPU 2
+Average;   468 MHz;   477 MHz
+Idle;
+CPU 1;CPU 3
+Average;   478 MHz;   477 MHz
+Idle;
+;
+;;
+;;
+;;
+;;
+;;
+
+____________________________________________________________________
+ *  *  *   Overview of Software Power Consumers   *  *  *
+
+Usage;Wakeups/s;GPU ops/s;Disk IO/s;GFX Wakeups/s;Category;Description;PW Estimate
+ 14,4 ms/s;291,2;;;;Timer;tick_sched_timer;  1.15 W  
+460,0 ms/s; 18,9;;;;kWork;intel_atomic_commit_work;  534 mW  
+ 97,5 ms/s;106,0;;; 36,5;Process;[PID 1453135] mpv --fullscreen=yes --ao=null --length=80 --vo=vaapi --hwdec=vaapi-copy /home/calestyo/cpu-tests/test-vid-high-r;  511 mW  
+ 70,9 ms/s; 79,1;;; 38,3;Process;[PID 2827] /usr/bin/gnome-shell ;  379 mW  
+120,5 ms/s; 66,4;;;;Process;[PID 1453126] mpv --fullscreen=yes --ao=null --length=80 --vo=vaapi --hwdec=vaapi-copy /home/calestyo/cpu-tests/test-vid-high-r;  379 mW  
+  6,4 ms/s; 50,0;;;;Interrupt;[0] HI_SOFTIRQ;  201 mW  
+ 11,7 ms/s; 46,1;;;;kWork;engine_retire;  191 mW  
+  2,0 ms/s; 39,3;;;;Timer;i915_sample;  155 mW  
+  1,2 ms/s; 31,8;;;;Process;[PID 10] [rcu_sched];  125 mW  
+  4,3 ms/s; 24,7;;;;Timer;hrtimer_wakeup;  101 mW  
+ 40,0 ms/s; 15,5;;; 14,0;Process;[PID 1554] /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch ;  100 mW  
+  1,0 ms/s; 19,2;;;;kWork;intel_atomic_cleanup_work; 76.0 mW  
+ 11,1 ms/s; 13,1;;;;Process;[PID 1453128] mpv --fullscreen=yes --ao=null --length=80 --vo=vaapi --hwdec=vaapi-copy /home/calestyo/cpu-tests/test-vid-high-r; 62.3 mW  
+  6,7 ms/s; 12,7;;;;Interrupt;[126] i915; 56.2 mW  
+181,8 us/s; 13,9;;;;kWork;intel_atomic_helper_free_state_; 54.5 mW  
+  7,9 ms/s;  6,7;;;;Interrupt;[7] sched(softirq); 34.2 mW  
+170,8 us/s;  5,8;;;;kWork;psi_avgs_work; 22.8 mW  
+  3,1 ms/s;  3,9;;;  0,8;Process;[PID 3847] /usr/libexec/gnome-terminal-server ; 18.5 mW  
+  1,7 ms/s;  3,9;;;;Process;[PID 1413529] /usr/sbin/NetworkManager --no-daemon ; 16.8 mW  
+634,9 us/s;  4,1;;;  1,9;Process;[PID 2967] diodon ; 16.6 mW  
+243,1 us/s;  3,8;;;;kWork;gc_worker; 15.2 mW  
+290,9 us/s;  3,6;;;;Process;[PID 773] /usr/sbin/haveged --Foreground --verbose=1 -w 1024 ; 14.3 mW  
+451,6 us/s;  2,2;;;;Process;[PID 9] [ksoftirqd/0]; 9.21 mW  
+  1,5 ms/s;  1,7;;;;Process;[PID 3036] /usr/libexec/gsd-sharing ; 8.07 mW  
+ 50,7 us/s;  1,8;;;;kWork;__i915_globals_park; 7.25 mW  
+  4,9 ms/s;;;;;Process;[PID 1411363] bash ; 4.93 mW  
+  4,8 ms/s;;;;;Interrupt;[9] RCU(softirq); 4.85 mW  
+ 51,7 us/s;  1,1;;;;kWork;free_work; 4.53 mW  
+  1,0 ms/s;  0,9;;;;Process;[PID 1453114] powertop -i 8 --csv=5.5.13/ipstate-active-hwp/gnome-shell-classic/mpv__vadriver-i965_vo-vaapi_hwdec-vaapi-copy_re; 4.47 mW  
+ 42,1 us/s;  0,9;;;;kWork;fence_work; 3.74 mW  
+  3,4 ms/s;;;;;Interrupt;[1] timer(softirq); 3.41 mW  
+  3,2 ms/s;;;;;Process;[PID 782] /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only ; 3.17 mW  
+104,8 us/s;  0,7;;;;Process;[PID 658] [irq/129-iwlwifi]; 2.83 mW  
+  2,4 ms/s;;;;;Timer;process_timeout; 2.40 mW  
+ 21,5 us/s;  0,5;;;;kWork;iwl_mvm_async_handlers_wk; 2.16 mW  
+ 19,9 us/s;  0,5;;;;kWork;pci_pme_list_scan; 1.97 mW  
+  1,9 ms/s;;;;;Process;[PID 1449292] [kworker/u9:0]; 1.89 mW  
+127,9 us/s;  0,4;;;;kWork;__i915_gem_free_work; 1.88 mW  
+ 71,9 us/s;  0,4;;;;Timer;intel_uncore_fw_release_timer; 1.82 mW  
+ 35,5 us/s;  0,4;;;;kWork;flush_to_ldisc; 1.79 mW  
+  1,6 ms/s;;;;;Process;[PID 1449031] [kworker/0:0]; 1.65 mW  
+ 78,0 us/s;  0,4;;;;Process;[PID 21] [ksoftirqd/2]; 1.64 mW  
+ 17,4 us/s;  0,4;;;;Timer;watchdog_timer_fn; 1.57 mW  
+164,4 us/s;  0,3;;;;kWork;delayed_fput; 1.53 mW  
+  1,3 ms/s; 0,05;;;;kWork;acpi_os_execute_deferred; 1.48 mW  
+288,3 us/s; 0,25;;;;kWork;e1000_watchdog_task; 1.26 mW  
+  0,8 ms/s; 0,10;;;;Process;[PID 1453327] sensors; 1.21 mW  
+ 35,5 us/s; 0,30;;;;Process;[PID 1411364] grep ^Pack ; 1.20 mW  
+ 28,0 us/s; 0,30;;;;Interrupt;[129] iwlwifi; 1.20 mW  
+ 16,4 us/s; 0,30;;;;kWork;vmstat_shepherd; 1.18 mW  
+  0,9 ms/s; 0,05;;;;Process;[PID 1453343] bash; 1.09 mW  
+  0,9 ms/s; 0,05;;;;Process;[PID 1453323] sensors; 1.09 mW  
+697,2 us/s; 0,10;;;;Process;[PID 1453329] sensors; 1.09 mW  
+  0,8 ms/s; 0,05;;;;Process;[PID 1453325] sh; 1.02 mW  
+ 48,3 us/s; 0,25;;;;Process;[PID 1430511] /usr/bin/tor --defaults-torrc /usr/share/tor/tor-service-defaults-torrc -f /etc/tor/torrc --RunAsDaemon 0 ; 1.02 mW  
+ 46,6 us/s; 0,25;;;;Timer;it_real_fn; 1.02 mW  
+ 30,1 us/s; 0,25;;;;Process;[PID 1430475] /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 102:104 ; 1.00 mW  
+416,8 us/s; 0,15;;;;Process;[PID 1453333] sensors; 1.00 mW  
+  6,0 us/s; 0,25;;;;Timer;sched_rt_period_timer;  979 uW  
+  0,8 ms/s; 0,05;;;;Process;[PID 1453341] sh;  958 uW  
+536,9 us/s; 0,10;;;;Process;[PID 1453331] sensors;  926 uW  
+  0,9 ms/s;;;;;Process;[PID 1453335] bash;  920 uW  
+486,0 us/s; 0,10;;;;Process;[PID 1453337] sensors;  875 uW  
+ 61,5 us/s; 0,20;;;;Process;[PID 26] [ksoftirqd/3];  840 uW  
+  0,8 ms/s;;;;;Process;[PID 1453339] bash;  837 uW  
+ 49,6 us/s; 0,20;;;;Process;[PID 16] [ksoftirqd/1];  828 uW  
+416,6 us/s; 0,10;;;;Process;[PID 1453333] sh;  806 uW  
+ 25,6 us/s; 0,20;;;;Timer;timerfd_tmrproc;  804 uW  
+ 24,9 us/s; 0,20;;;;kWork;handle_update;  804 uW  
+ 14,2 us/s; 0,20;;;;Process;[PID 2907] /usr/libexec/gvfs-afc-volume-monitor ;  793 uW  
+160,3 us/s; 0,15;;;;Process;[PID 1453118] intel_gpu_top -o 5.5.13/ipstate-active-hwp/gnome-shell-classic/mpv__vadriver-i965_vo-vaapi_hwdec-vaapi-copy_res-h;  744 uW  
+692,1 us/s;;;;;Process;[PID 2981] /usr/libexec/gsd-sharing ;  692 uW  
+260,5 us/s; 0,10;;;;Process;[PID 1453321] sensors;  650 uW  
+645,2 us/s;;;;;Process;[PID 1453331] bash;  645 uW  
+ 28,4 us/s; 0,15;;;;Process;[PID 931] /usr/sbin/gpm -m /dev/input/mice -t autops2 -r 4 ;  612 uW  
+398,5 us/s; 0,05;;;;Process;[PID 1453343] sensors;  593 uW  
+579,4 us/s;;;;;Timer;delayed_work_timer_fn;  579 uW  
+182,3 us/s; 0,10;;;;Process;[PID 1453319] sensors;  572 uW  
+370,0 us/s; 0,05;;;;Process;[PID 1453327] bash;  565 uW  
+562,5 us/s;;;;;Process;[PID 1453321] sh;  563 uW  
+338,7 us/s; 0,05;;;;Process;[PID 1453335] sensors;  533 uW  
+294,1 us/s; 0,05;;;;Process;[PID 1453336] bash;  489 uW  
+ 91,6 us/s; 0,10;;;;Process;[PID 1453325] sensors;  481 uW  
+277,2 us/s; 0,05;;;;Process;[PID 1453344] bash;  472 uW  
+273,1 us/s; 0,05;;;;Process;[PID 1453323] bash;  468 uW  
+ 72,9 us/s; 0,10;;;;Process;[PID 1453334] sleep;  462 uW  
+ 29,5 us/s; 0,10;;;;kWork;wb_workfn;  419 uW  
+ 26,3 us/s; 0,10;;;;Process;[PID 1453316] sleep;  416 uW  
+220,6 us/s; 0,05;;;;Process;[PID 1453328] bash;  415 uW  
+217,8 us/s; 0,05;;;;Process;[PID 1453334] sh;  413 uW  
+ 21,8 us/s; 0,10;;;;Process;[PID 1453322] sleep;  411 uW  
+ 12,7 us/s; 0,10;;;;kWork;retire_work_handler;  402 uW  
+ 11,4 us/s; 0,10;;;  0,0;Process;[PID 2968] /usr/libexec/gsd-power ;  401 uW  
+  8,1 us/s; 0,10;;;;Process;[PID 1430514] /usr/sbin/usbguard-daemon -f -s -c /etc/usbguard/usbguard-daemon.conf ;  397 uW  
+  5,1 us/s; 0,10;;;;kWork;iwl_pcie_rx_allocator_work;  394 uW  
+179,5 us/s; 0,05;;;;Process;[PID 1453322] sh;  374 uW  
+177,4 us/s; 0,05;;;;Process;[PID 1453342] sh;  372 uW  
+158,2 us/s; 0,05;;;;Process;[PID 1453330] sh;  353 uW  
+338,5 us/s;;;;;Process;[PID 1453337] sh;  339 uW  
+332,6 us/s;;;;;Process;[PID 1453119] sh -c while true; do sleep 1; sensors; done | grep °C > 5.5.13/ipstate-active-hwp/gnome-shell-classic/mpv__vadri;  333 uW  
+
+
+The system baseline power is estimated at:  7.66  W;
+____________________________________________________________________
+ *  *  *   Device Power Report   *  *  *
+
+Usage;Device Name;PW Estimate
+ 90,9%;DRAM;  3.32 W   
+ 90,9%;CPU core;  2.24 W   
+ 90,9%;CPU misc;  2.10 W   
+100,0%;Display backlight;    0 mW   
+100,0%;PCI Device: Intel Corporation Sunrise Point-LP USB 3.0 xHCI Controller;           
+100,0%;PCI Device: Intel Corporation Sunrise Point LPC Controller/eSPI Controller;           
+100,0%;PCI Device: Intel Corporation Sunrise Point-LP HD Audio;           
+100,0%;PCI Device: Intel Corporation HD Graphics 620;           
+100,0%;PCI Device: Intel Corporation Ethernet Connection (4) I219-LM;           
+100,0%;PCI Device: Intel Corporation Sunrise Point-LP PCI Express Root Port #9;           
+100,0%;PCI Device: Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers;           
+100,0%;PCI Device: Intel Corporation Wireless 8265 / 8275;           
+100,0%;PCI Device: Intel Corporation Sunrise Point-LP SATA Controller [AHCI mode];           
+100,0%;PCI Device: O2 Micro, Inc. SD/MMC Card Reader Controller;           
+100,0%;USB device: xHCI Host Controller;           
+100,0%;PCI Device: Intel Corporation Sunrise Point-LP PCI Express Root Port #4;           
+100,0%;Radio device: iwlwifi;           
+100,0%;USB device: EM7455 (Sierra Wireless, Incorporated);           
+  2,1 pkts/s;Network interface: wlan0 (iwlwifi);           
+  0,0%;runtime-snd-soc-dummy;           
+  0,0%;runtime-intel_rapl_msr.0;           
+  0,0%;runtime-PNP0C0C:00;           
+  0,0%;runtime-idma64.1;           
+  0,0%;runtime-ACPI000C:00;           
+  0,0%;I2C Adapter (i2c-7): Synopsys DesignWare I2C adapter;           
+  0,0%;runtime-INT0800:00;           
+  0,0%;runtime-INT344B:00;           
+  0,0%;runtime-i2c_designware.0;           
+  0,0%;runtime-FUJ02E3:00;           
+  0,0%;runtime-coretemp.0;           
+  0,0%;runtime-regulatory.0;           
+  0,0%;runtime-pcspkr;           
+  0,0%;runtime-FUJ0420:00;           
+  0,0%;runtime-microcode;           
+  0,0%;runtime-idma64.0;           
+  0,0%;I2C Adapter (i2c-0): i915 gmbus dpc;           
+  0,0%;runtime-PNP0800:00;           
+  0,0%;I2C Adapter (i2c-2): i915 gmbus dpd;           
+  0,0%;I2C Adapter (i2c-4): DPDDC-B;           
+  0,0%;I2C Adapter (i2c-6): SMBus I801 adapter at 3040;           
+  0,0%;runtime-MSFT0101:00;           
+  0,0%;I2C Adapter (i2c-8): Synopsys DesignWare I2C adapter;           
+  0,0%;I2C Adapter (i2c-5): DPDDC-C;           
+  0,0%;runtime-PNP0103:00;           
+  0,0%;runtime-serial8250;           
+  0,0%;runtime-i8042;           
+  0,0%;I2C Adapter (i2c-1): i915 gmbus dpb;           
+  0,0%;PCI Device: Intel Corporation Sunrise Point-LP Serial IO I2C Controller #1;           
+  0,0%;PCI Device: Intel Corporation Sunrise Point-LP PCI Express Root Port #1;           
+  0,0%;PCI Device: Intel Corporation Sunrise Point-LP PMC;           
+  0,0 pkts/s;Network interface: wwan0 (cdc_mbim);           
+  0,0 pkts/s;Network interface: eth0 (e1000e);           
+  0,0%;Radio device: btusb;           
+  0,0%;Audio codec hwC0D0: Realtek;           
+  0,0%;Audio codec hwC0D2: Intel;           
+  0,0%;USB device: USB2.0 Hub;           
+  0,0%;USB device: xHCI Host Controller;           
+  0,0%;USB device: FJ Camera (Chicony Electronics Co.,Ltd.);           
+  0,0%;USB device: EMV Smartcard Reader (Generic);           
+  0,0%;USB device: usb-device-8087-0a2b;           
+  0,0%;runtime-platform-framebuffer.0;           
+  0,0%;PCI Device: Intel Corporation Sunrise Point-LP CSME HECI #1;           
+  0,0%;I2C Adapter (i2c-3): DPDDC-A;           
+  0,0%;runtime-fujitsu-laptop;           
+  0,0%;PCI Device: Intel Corporation Sunrise Point-LP Serial IO I2C Controller #0;           
+  0,0%;PCI Device: Intel Corporation Sunrise Point-LP SMBus;           
+  0,0%;runtime-i2c_designware.1;           
+  0,0%;runtime-PNP0C14:00;           
+  0,0%;runtime-alarmtimer.0.auto;           
+  0,0%;runtime-reg-dummy;           
+  0,0%;runtime-iTCO_wdt;           
+  0,0%;runtime-PNP0C0D:00;           
+  0,0%;runtime-PNP0C09:00;           
+  0,0%;runtime-PNP0C0A:00;           
+  0,0%;runtime-ACPI0003:00;           
+  0,0%;runtime-intel_xhci_usb_sw;           
+____________________________________________________________________
+ *  *  *   Process Device Activity   *  *  *
+
+Process;Device
+systemd;/dev/autofs
+;/dev/kmsg
+;/dev/rfkill
+haveged;/dev/random
+systemd-logind;/dev/input/event0
+;/dev/input/event5
+;/dev/input/event6
+wpa_supplicant;/dev/rfkill
+;/dev/rfkill
+Xorg;/dev/dri/card0
+;/dev/dri/card0
+;/dev/dri/card0
+;/dev/dri/card0
+;/dev/dri/card0
+;/dev/dri/card0
+;/dev/input/event0
+;/dev/input/event1
+;/dev/input/event2
+;/dev/input/event3
+;/dev/input/event3
+;/dev/input/event4
+;/dev/input/event5
+;/dev/input/event8
+;/dev/vga_arbiter
+pulseaudio;/dev/snd/controlC0
+;/dev/snd/controlC0
+;/dev/snd/controlC0
+gvfsd-fuse;/dev/fuse
+gnome-shell;/dev/dri/card0
+;/dev/dri/card0
+;/dev/dri/card0
+usbguard-applet;/dev/dri/card0
+;/dev/dri/card0
+;/dev/dri/card0
+gsd-rfkill;/dev/rfkill
+;/dev/rfkill
+udisksd;/dev/random
+upowerd;/dev/input/event6
+systemd-journal;/dev/kmsg
+;/dev/kmsg
+mpv;/dev/dri/card0
+;/dev/dri/renderD128
+
+____________________________________________________________________
+ *  *  *   AHCI ALPM Residency Statistics - Not supported on this macine   *  *  *
+
+____________________________________________________________________
+ *  *  *   Software Settings in Need of Tuning   *  *  *
+
+Description;Script
+VM writeback timeout;echo '1500' > '/proc/sys/vm/dirty_writeback_centisecs';
+NMI watchdog should be turned off;echo '0' > '/proc/sys/kernel/nmi_watchdog';
+Enable SATA link power management for host0;echo 'min_power' > '/sys/class/scsi_host/host0/link_power_management_policy';
+Enable SATA link power management for host1;echo 'min_power' > '/sys/class/scsi_host/host1/link_power_management_policy';
+Enable SATA link power management for host2;echo 'min_power' > '/sys/class/scsi_host/host2/link_power_management_policy';
+Runtime PM for I2C Adapter i2c-0 (i915 gmbus dpc);echo 'auto' > '/sys/bus/i2c/devices/i2c-0/device/power/control';
+Runtime PM for I2C Adapter i2c-2 (i915 gmbus dpd);echo 'auto' > '/sys/bus/i2c/devices/i2c-2/device/power/control';
+Autosuspend for USB device EM7455 [Sierra Wireless, Incorporated];echo 'auto' > '/sys/bus/usb/devices/1-9/power/control';
+Runtime PM for I2C Adapter i2c-1 (i915 gmbus dpb);echo 'auto' > '/sys/bus/i2c/devices/i2c-1/device/power/control';
+Runtime PM for PCI Device Intel Corporation Sunrise Point LPC Controller/eSPI Controller;echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.0/power/control';
+Runtime PM for PCI Device O2 Micro, Inc. SD/MMC Card Reader Controller;echo 'auto' > '/sys/bus/pci/devices/0000:03:00.0/power/control';
+Runtime PM for disk sda;echo 'auto' > '/sys/block/sda/device/power/control';
+Runtime PM for PCI Device Intel Corporation Sunrise Point-LP SATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:17.0/power/control';
+Runtime PM for port ata1 of PCI device: Intel Corporation Sunrise Point-LP SATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:17.0/ata1/power/control';
+Runtime PM for port ata2 of PCI device: Intel Corporation Sunrise Point-LP SATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:17.0/ata2/power/control';
+Runtime PM for port ata3 of PCI device: Intel Corporation Sunrise Point-LP SATA Controller [AHCI mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:17.0/ata3/power/control';
+Runtime PM for PCI Device Intel Corporation HD Graphics 620;echo 'auto' > '/sys/bus/pci/devices/0000:00:02.0/power/control';
+Runtime PM for PCI Device Intel Corporation Ethernet Connection (4) I219-LM;echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.6/power/control';
+Runtime PM for PCI Device Intel Corporation Wireless 8265 / 8275;echo 'auto' > '/sys/bus/pci/devices/0000:02:00.0/power/control';
+Runtime PM for PCI Device Intel Corporation Sunrise Point-LP HD Audio;echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.3/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers;echo 'auto' > '/sys/bus/pci/devices/0000:00:00.0/power/control';
+____________________________________________________________________
+ *  *  *   Untunable Software Issues   *  *  *
+
+Description
+I2C Adapter i2c-3 has no runtime power management
+I2C Adapter i2c-4 has no runtime power management
+I2C Adapter i2c-5 has no runtime power management
+____________________________________________________________________
+ *  *  *   Optimal Tuned Software Settings   *  *  *
+
+Description
+Wireless Power Saving for interface wlan0
+Enable Audio codec power management
+Bluetooth device interface status
+Autosuspend for unknown USB device 1-7 (8087:0a2b)
+Autosuspend for USB device xHCI Host Controller [usb1]
+Autosuspend for USB device EMV Smartcard Reader [Generic]
+Autosuspend for USB device FJ Camera [Chicony Electronics Co.,Ltd.]
+Runtime PM for I2C Adapter i2c-8 (Synopsys DesignWare I2C adapter)
+Autosuspend for USB device xHCI Host Controller [usb2]
+Autosuspend for USB device USB2.0 Hub [1-6]
+Runtime PM for I2C Adapter i2c-6 (SMBus I801 adapter at 3040)
+Runtime PM for I2C Adapter i2c-7 (Synopsys DesignWare I2C adapter)
+Runtime PM for PCI Device Intel Corporation Sunrise Point-LP PCI Express Root Port #4
+Runtime PM for PCI Device Intel Corporation Sunrise Point-LP CSME HECI #1
+Runtime PM for PCI Device Intel Corporation Sunrise Point-LP Serial IO I2C Controller #0
+Runtime PM for PCI Device Intel Corporation Sunrise Point-LP PCI Express Root Port #9
+Runtime PM for PCI Device Intel Corporation Sunrise Point-LP Serial IO I2C Controller #1
+Runtime PM for PCI Device Intel Corporation Sunrise Point-LP PCI Express Root Port #1
+Runtime PM for PCI Device Intel Corporation Sunrise Point-LP USB 3.0 xHCI Controller
+Runtime PM for PCI Device Intel Corporation Sunrise Point-LP SMBus
+Runtime PM for PCI Device Intel Corporation Sunrise Point-LP PMC
+
+____________________________________________________________________
+ *  *  *   Wake status of the devices   *  *  *
+
+Description;Script
+Wake-on-lan status for device wlan0;echo 'enabled' > '/sys/class/net/wlan0/device/power/wakeup';
+Wake status for USB device 1-9;echo 'enabled' > '/sys/bus/usb/devices/1-9/power/wakeup';
+Wake status for USB device 1-7;echo 'enabled' > '/sys/bus/usb/devices/1-7/power/wakeup';
+Wake status for USB device usb1;echo 'enabled' > '/sys/bus/usb/devices/usb1/power/wakeup';
+Wake status for USB device 1-6.2;echo 'enabled' > '/sys/bus/usb/devices/1-6.2/power/wakeup';
+Wake status for USB device usb2;echo 'enabled' > '/sys/bus/usb/devices/usb2/power/wakeup';
+Wake status for USB device 1-6;echo 'enabled' > '/sys/bus/usb/devices/1-6/power/wakeup';
+Wake-on-lan status for device wlan0;echo 'enabled' > '/sys/class/net/wlan0/device/power/wakeup';
+Wake status for USB device 1-9;echo 'enabled' > '/sys/bus/usb/devices/1-9/power/wakeup';
+Wake status for USB device 1-7;echo 'enabled' > '/sys/bus/usb/devices/1-7/power/wakeup';
+Wake status for USB device usb1;echo 'enabled' > '/sys/bus/usb/devices/usb1/power/wakeup';
+Wake status for USB device 1-6.2;echo 'enabled' > '/sys/bus/usb/devices/1-6.2/power/wakeup';
+Wake status for USB device usb2;echo 'enabled' > '/sys/bus/usb/devices/usb2/power/wakeup';
+Wake status for USB device 1-6;echo 'enabled' > '/sys/bus/usb/devices/1-6/power/wakeup';
